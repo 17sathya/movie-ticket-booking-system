@@ -23,11 +23,24 @@ A full-stack web application inspired by BookMyShow that allows users to browse 
 
 ---
 
-## 📸 Screenshots
+## ⚙️ System Design
 
-(Will be added soon)
+- Seat selection system
+- Seat locking mechanism
+- Prevents double booking
 
----
+## 🧠 Key Logic
+
+When a user selects a seat:
+- Seat is temporarily locked
+- If payment fails → released
+- If success → booked
+
+## 🚀 APIs
+
+- GET /shows
+- POST /book
+- POST /login
 
 ## ⚙️ System Flow
 
